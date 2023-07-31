@@ -8,6 +8,7 @@ echo "Roblox Client Version: $client_version"
 download_url="https://setup.rbxcdn.com/mac/${client_version}-Roblox.dmg"
 echo "Downloading Roblox Client..."
 wget -P ~/Downloads $download_url
+echo "Roblox Client has been downloaded!"
 mv ~/Downloads/$client_version-Roblox.dmg ~/Downloads/Roblox.dmg
 hdiutil attach ~/Downloads/Roblox.dmg
 ls /Volumes
