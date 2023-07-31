@@ -1,5 +1,5 @@
 # Roblox Downloader for MacOS (RDM)
-These scripts download the latest version of Roblox (either arm64 or Intel versions of Roblox) and automatically install Roblox!
+These scripts download the latest version of Roblox (either arm64 or Intel versions of Roblox) and automatically install Roblox!\
 Based off of [this](https://github.com/ImLoadingUuU/silicon-roblox-downloader) repository except it is much improved.
 
 ## Note
