@@ -1,15 +1,19 @@
-echo "Native Roblox Installer for Apple Silicon Mac"
+echo "Terminal Roblox Installer for Apple Silicon (arm64) Mac"
 echo "============================================"
 echo "Fetching Latest Version"
-# Fetch Latest Version
 
-client_version=$(curl -s setup.rbxcdn.com/channel/zmacarm64/mac/arm64/version)
-channel="arm64"
+client_version=$(curl -s https://setup.rbxcdn.com/channel/zmacarm64/mac/arm64/version)
 echo "Latest Roblox Client Version: $client_version"
-
-download_url="http://setup.rbxcdn.com/channel/zmacarm64/mac/${channel}/${client_version}-RobloxPlayer.zip"
+download_url="https://setup.rbxcdn.com/channel/zmacarm64/mac/arm64/${client_version}-Roblox.dmg"
 echo "Downloading Roblox Client..."
-
-
-
 wget -P ~/Downloads $download_url
+echo "Roblox Client has been downloaded."
+mv ~/Downloads/$client_version-Roblox.dmg ~/Downloads/Roblox.dmg
+hdiutil attach ~/Downloads/Roblox.dmg
+ls /Volumes
+cp -R /Volumes/RobloxPlayerInstaller/RobloxPlayerInstaller.app ~/Downloads/
+hdiutil detach /Volumes/RobloxPlayerInstaller
+rm ~/Downloads/Roblox.dmg
+open ~/Downloads/RobloxPlayerInstaller.app
+sleep 10
+rm -r /Users/norbel/Downloads/RobloxPlayerInstaller.app
