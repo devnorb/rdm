@@ -5,6 +5,17 @@ If your Mac computer has a M1 or M2 chip, then it will be arm64. You can also go
 ## Difference between arm64 and Intel
 Those versions are specifically optimized for the computer chip.
 If you run a Intel version of Roblox on a arm64 Mac, it is still functional, though it won't be optimized for that specific computer chip.
-## How?
-Download `installer.command`
-Double click to open it
+## How do I run the script?
+- Download the script (`IntelMacInstaller.command` or `arm64MacInstaller.command` depending on your computer chip)
+- Open Terminal
+- Type `cd ~/Downloads`
+- Type `chmod 755 IntelMacInstaller.command` or `chmod 755 arm64MacInstaller.command` depending on what script you downloaded.
+- Exit Terminal
+- Go to your Downloads folder in Finder
+- Hold `Control ^` key and left click on the script.
+- Click open
+- Click open again
+- A terminal window should pop up and Roblox should automatically install.
+- Roblox is installed :D
+# Bugs 
+Open a issue or just contact me on Discord: `norb_`
