@@ -20,7 +20,6 @@ If you run a Intel version of Roblox on a arm64 Mac, it is still functional, tho
 - Go to your Downloads folder in Finder
 - Hold `Control ^` key and left click on the script.
 - Click open
-- Click open again
 - A terminal window should pop up and Roblox should automatically install.
 - Roblox is installed :D
 # Bugs 
