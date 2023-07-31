@@ -3,8 +3,8 @@ These scripts download the latest version of Roblox (either arm64 or Intel versi
 
 ## Note
 You need to install `wget` and `homebrew`
-Install `homebrew` first: `https://brew.sh/`
-Then install `wget`: `https://formulae.brew.sh/formula/wget`
+- Install `homebrew` first: `https://brew.sh/`
+- Then install `wget` using `homebrew`: `https://formulae.brew.sh/formula/wget`
 
 ## How to tell if your MacOS is arm64 or not
 If your Mac computer has a M1 or M2 chip, then it will be arm64. You can also go into System Settings and click About This Mac.
