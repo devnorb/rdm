@@ -1,5 +1,5 @@
 # Roblox Downloader for MacOS (RDM)
-These scripts download the latest version of Roblox (either arm64 or Intel versions of Roblox)
+These scripts download the latest version of Roblox (either arm64 or Intel versions of Roblox) and automatically install Roblox!
 
 ## Note
 You need to install `wget` and `homebrew`
