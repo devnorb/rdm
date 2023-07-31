@@ -24,3 +24,7 @@ If you run a Intel version of Roblox on a arm64 Mac, it is still functional, tho
 - Roblox is installed :D
 # Bugs 
 Open a issue or just contact me on Discord: `norb_`
+# File hashes (If you want to check for viruses)
+`arm64MacInstaller.command` SHA256 - e488fe091d346d1deb167502c2fcb4041a931502872b708ed40d50991c356754
+`IntelMacInstaller.command` SHA256 - adb4ff243b9ceeac109f8ffea9334b4dd417b886bdedbc57439ce4bbc4ca381b
+No detections on VirusTotal
