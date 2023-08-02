@@ -14,6 +14,6 @@ ls /Volumes
 cp -R /Volumes/RobloxPlayerInstaller/RobloxPlayerInstaller.app ~/Downloads/
 hdiutil detach /Volumes/RobloxPlayerInstaller
 rm ~/Downloads/Roblox.dmg
-open ~/Downloads/RobloxPlayerInstaller
+open ~/Downloads/RobloxPlayerInstaller.app
 sleep 10
-rm -r /Users/norbel/Downloads/RobloxPlayerInstaller
+rm -r /Users/norbel/Downloads/RobloxPlayerInstaller.app
