@@ -16,4 +16,4 @@ hdiutil detach /Volumes/RobloxPlayerInstaller
 rm ~/Downloads/Roblox.dmg
 open ~/Downloads/RobloxPlayerInstaller.app
 sleep 10
-rm -r /Users/norbel/Downloads/RobloxPlayerInstaller.app
+rm -r ~/Downloads/RobloxPlayerInstaller.app
