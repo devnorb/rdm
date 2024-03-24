@@ -18,12 +18,7 @@ If you run a Intel version of Roblox on a arm64 Mac, it is still functional, tho
 ## How do I run the script?
 - Download the script (`IntelMacInstaller.command` or `arm64MacInstaller.command` depending on your computer chip)
 - Open Terminal
-- Type `cd ~/Downloads`
-- Type `chmod 755 IntelMacInstaller.command` or `chmod 755 arm64MacInstaller.command` depending on what script you downloaded.
-- Exit Terminal
-- Go to your Downloads folder in Finder
-- Hold `Control ^` key and left click on the script.
-- Click open
+- Type `curl -s https://raw.githubusercontent.com/devnorb/rdm/main/IntelMacInstaller.command | bash` or `curl -s https://raw.githubusercontent.com/devnorb/rdm/main/arm64MacInstaller.command | bash`
 - A terminal window should pop up and Roblox should automatically install.
 - Roblox is installed :D
 
