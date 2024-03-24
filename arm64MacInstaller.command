@@ -6,7 +6,7 @@ client_version=$(curl -s https://setup.rbxcdn.com/channel/zmacarm64/mac/arm64/ve
 echo "Latest Roblox Client Version: $client_version"
 download_url="https://setup.rbxcdn.com/channel/zmacarm64/mac/arm64/${client_version}-Roblox.dmg"
 echo "Downloading Roblox Client..."
-wget -P ~/Downloads $download_url
+curl -o ~/Downloads/Roblox.dmg $download_url
 echo "Roblox Client has been downloaded."
 mv ~/Downloads/$client_version-Roblox.dmg ~/Downloads/Roblox.dmg
 hdiutil attach ~/Downloads/Roblox.dmg
